@@ -1,0 +1,204 @@
+ul{
+  list-style: none !important;
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: inherit;
+    padding-top: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    width: 100%;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.552);
+    backdrop-filter: blur(20px);
+    border-radius: 100px;
+    padding: 10px;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+a.hire {
+    background: linear-gradient(45deg,rgb(5, 180, 239),rgb(52, 59, 116));
+    padding: 10px 15px;
+    border-radius: 100px;
+}
+body{
+  background-color: rgb(0, 0, 0);
+  position: relative;
+}
+.nav-bar a{
+  color: black;
+}
+.hero{
+    display: flex;
+    /* align-items: end; */
+    flex-direction: column;
+    height: 100vh;
+    justify-content: flex-end;
+    color: white;
+    position: relative;
+    bottom: 200px;
+}
+
+    
+    
+h1 span {
+    background: linear-gradient(45deg, #108499, #424242);
+    color: transparent;
+    background-clip: text;
+}
+
+.right-hero{
+    position: relative;
+    bottom: -416px;
+    
+}
+h3{
+  font-size: 15px;
+  color: aliceblue;
+
+}
+.font h1 {
+    align-items: center;
+    font-size: 90px;
+    color: rgb(7, 80, 139);
+    padding: 45px;
+    background: linear-gradient(90deg, black, #158cc6);
+    color: transparent;
+    background-clip: text;
+}
+.passionate {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+}
+.passionate h2 {
+    font-size: 38px;
+}
+.skills-font h2{
+  font-size: 78px;
+  color: aliceblue;
+  color: rgb(7, 80, 139);
+  background: linear-gradient(90deg, black, #158cc6);
+  color: transparent;
+  background-clip: text;
+}
+.font{
+  text-align: center;
+  padding-bottom: 15px;
+}
+.hero h1 {
+    font-size: 53px;
+}
+.right-hero h3 {
+    font-size: 26px;
+    color: aliceblue;
+}
+.skills-font{
+  text-align: center;
+  padding-bottom: 25px;
+  margin-top: 10px;
+
+}
+
+.figma div{
+  text-align: center;
+}
+.skills-font h2{
+    margin-top: 100px;
+    padding: 50px;
+}
+.figma div img{
+  width: 100%;
+}
+.my-skills {
+    padding: 29px;
+    display: flex;
+    justify-content: center;
+    background-color: #54545c42;
+    border-radius: 20px;
+    color: rgb(7, 80, 139);
+    background: linear-gradient(90deg, #100f0f, #1b1a3a);
+    color: transparent;
+    /* background-clip: text; */
+}
+.my-skills h3 {
+    margin-top: 12px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 25px;
+    max-width: 700px;
+
+
+}
+.about img {
+    vertical-align: middle;
+    border-style: none;
+    border-radius: 295px;
+}
+.bg {
+    width: 500px;
+    background: linear-gradient(45deg, #0F8BF3, #421E63);
+    height: 500px;
+    border-radius: 279px;
+    filter: blur(248px);
+    position: absolute;
+}
+projects .project-font h2{
+  font-size: 78px;
+  color: aliceblue;
+  color: rgb(7, 80, 139);
+  background: linear-gradient(90deg, black, blue);
+  color: transparent;
+  background-clip: text;
+}
+.sub-h {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.sub-h h3 {
+    padding: 12px 26px;
+    border: 2px solid white;
+    border-radius: 15px;
+    font-size: 26px;
+    color: #158cc6;
+}
+.project-card{
+  height: 100%;
+  background-color: #100f0f;
+  padding: 10px;
+}
+
+
+
+
+
